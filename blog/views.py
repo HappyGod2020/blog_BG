@@ -28,6 +28,7 @@ class PostDetail(DetailView):
     
 class PostUpdate(UpdateView):
     model = Post
+    fields = ("name", "description")
     template_name = "update.html"
     success_url = "/"
     
