@@ -15,7 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-
+# покопаться, вдруг найдём чтото интересное
+# матвей, ты читаешь это, добавь третьего админа под l:ShahAR pass:1111QQQQ 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('blog.urls'))
